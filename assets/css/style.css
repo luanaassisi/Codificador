@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    background-image: url(../img/portrait-of-illuminated-laptop.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 10%;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background: rgba(27, 19, 19, 0.172);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 5px;
+    border: 1px solid;
+   
+}
+
+h1,
+h2,
+label,
+button {
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: 300;
+    color: rgb(42, 162, 183);
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.695);
+    color: antiquewhite;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.center {
+    text-align: center;
+    padding: 30px;
+
+}
+
+button {
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.834);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 5px;
+    border: 1px solid
+}

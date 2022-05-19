@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div>
+
+        <form class="center" action="">
+            <h1>Codifique e Decodifique o seu texto!</h1>
+            <h2>Escolha o método</h2>
+
+            <div>
+            <input type = "radio" id = "cifraCesar" name = "cifraCesar" value = "opcao">
+         <label for = "opcao"> Cifra de Cesar</label>
+
+         <input type = "radio" id = "base64" name = "base64" value = "opcao">
+         <label for = "opcao"> Base 64</label>
+        </div>
+        <br>
+              
+            <textarea id="input"></textarea>
+            <br>
+            <textarea id="output"></textarea>
+            <br>
+            <button onclick="decodificar()" >Codificar</button>
+            <button onclick="decodificar()">Decodificar</button>
+
+            
+
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
