@@ -3,6 +3,7 @@ body {
     background-image: url(../img/portrait-of-illuminated-laptop.jpg);
     background-size: 500px;
     background-repeat: no-repeat;
+    background-position: center;
     background-position-x: 50%;
     background-position-y: 10%;
 
@@ -50,11 +51,3 @@ textarea {
 
 }
 
-button {
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.834);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 5px;
-    border: 1px solid
-}
