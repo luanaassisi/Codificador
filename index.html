@@ -10,50 +10,48 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Rubik+Glitch&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
-    
-
 </head>
-
 
 <body>
     <div>
-
         <form class="center" action="">
             <h1>Codifique e Decodifique o seu texto!</h1>
-            <h2>Escolha o método</h2>
-
             <div>
                 <select name="select" id="escolha">
-                    <option value="" selected>escolha um metodo</option>
-                    <option value="base">base64</option>
-                    <option value="cifra">cifra</option>
-                  </select>
-                  
-                <input type="number" id="incremento">
-               
+                    <option class="center" value="">Escolha um Método</option>
+                    <!-- <option value="base">base64</option> -->
+                    <option value="cifra">Cifra de Cesar</option>
+                </select>
             </div>
-            
+            <div>
+            </div>
+
+            <!-- <div class="tipo">
+                <div class=codifica>
+                    <input type="radio" name="cod_radio" value="msg-codigo" id="codifica" checked />
+                    <label for="codifica">Codificar</label>
+                </div>
+                <div>
+                    <input type="radio" name="cod_radio" value="codigo-msg" id="decodifica" />
+                    <label for="decodifica">Decodificar</label>
+                </div>
+            </div> -->
+
+            <div>
+                <input type="range" id="deslocamento" value="21" min="1" max="99">
+                <output>21</output>
+            </div>
+
+            <textarea type="text" id="texto" placeholder="Digite o seu texto!"></textarea>
             <br>
-
-            <textarea id="texto" placeholder="Digite o texto que deseja codificar"></textarea>
+            <p><label for="textocifrado"><strong>Veja sua mensagem:</strong></label></p>
+            <textarea id="textocifrado" name="Seu Texto"></textarea>
             <br>
-            <textarea id="output"></textarea>
-            <br>
-
-            <button>Codificar</button>
-            <button>Decodificar</button>
-
-
-
-
-
+            <button class=button1 onclick="codificar()">Codificar</button>
+            <button class=button1 onclick="decodificar()">Decodificar</button>
         </form>
 
-
-
-    </div>
-
-    <script defer src="../assets/js/cifraDeCesar.js"></script>
+        <script defer src="assets/js/codificador.js"></script>
 </body>
 
 </html>
